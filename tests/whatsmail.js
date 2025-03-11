@@ -1,4 +1,4 @@
-import OTPService from "../src/index.js";
+import OTPService from "otp-whatsapp-auth";
 
 const phone  = "+6282125497764";
 const email  = "alamhafidz61@gmail.com";

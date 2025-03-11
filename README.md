@@ -20,7 +20,7 @@ import OTPService from "otp-whatsapp-auth";
 Anda dapat memilih metode autentikasi yang digunakan dengan menyertakan opsi `typeAuth` dalam bentuk array.
 
 ```js
-import OTPService from "../src/index.js";
+import OTPService from "otp-whatsapp-auth";
 
 const phone  = "6285121040470";
 

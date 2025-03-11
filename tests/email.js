@@ -1,4 +1,4 @@
-import OTPService from "../src/index.js";
+import OTPService from "otp-whatsapp-auth";
 
 const email  = "alamhafidz61@gmail.com";
 
