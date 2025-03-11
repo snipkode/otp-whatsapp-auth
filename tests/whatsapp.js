@@ -1,4 +1,4 @@
-import OTPService from "./src/index.js";
+import OTPService from "../src/index.js";
 
 const phone  = "+6282125497764";
 
