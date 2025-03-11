@@ -20,19 +20,19 @@ import OTPService from "otp-whatsapp-auth";
 Anda dapat memilih metode autentikasi yang digunakan dengan menyertakan opsi `typeAuth` dalam bentuk array.
 
 ```js
+import OTPService from "../src/index.js";
+
+const phone  = "6285121040470";
+
 const otpService = new OTPService({
-  typeAuth: ["email", "whatsapp"],
-  digits: 6,
-  period: 60,
-  window: 1,
-  emailConfig: {
-    service: "gmail",
-    auth: {
-      user: "your-email@gmail.com",
-      pass: "your-password"
-    }
-  }
+  typeAuth: ["whatsapp"],
 });
+
+otpService.on("ready", async () => {
+  const otp = otpService.generateOTP(phone);
+  await otpService.sendWhatsapp(phone, otp);
+});
+
 ```
 
 Jika hanya satu metode yang digunakan, cukup isi satu elemen dalam array `typeAuth`:
