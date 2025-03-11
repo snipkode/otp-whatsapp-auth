@@ -1,6 +1,6 @@
 {
     "name": "otp-whatsapp-auth",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Library untuk OTP authentication menggunakan TOTP dengan dukungan konfigurasi fleksibel.",
     "main": "src/index.js",
     "type": "module",
