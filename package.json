@@ -1,0 +1,25 @@
+{
+    "name": "otp-whatsapp-auth",
+    "version": "1.0.0",
+    "description": "Library untuk OTP authentication menggunakan TOTP dengan dukungan konfigurasi fleksibel.",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "keywords": [
+        "otp",
+        "totp",
+        "authentication",
+        "security",
+        "whatsapp"
+    ],
+    "author": "Alam Wibowo",
+    "license": "MIT",
+    "dependencies": {
+        "nodemailer": "^6.10.0",
+        "otpauth": "^9.1.1",
+        "qrcode-terminal": "^0.12.0",
+        "whatsapp-web.js": "^1.26.0"
+    }
+}
