@@ -1,12 +1,5 @@
-OTP dikirim ke pengguna melalui WhatsApp (`whatsapp-web.js`) atau email (`nodemailer`).  
-
-**📌 Fitur:**  
-✅ `sendWhatsapp(phone, otp)` → Mengirim OTP via WhatsApp menggunakan `whatsapp-web.js`.  
-✅ `sendEmail(email, otp)` → Mengirim OTP via Email menggunakan `nodemailer`.  
-
----
-
-### **📌 Cara Menggunakan Library**
+ 
+## **📌 Cara Menggunakan Library**
 #### **1️⃣ Setup & Generate OTP**
 ```javascript
 import OTPService from "otp-whatsapp-auth";
@@ -49,6 +42,6 @@ console.log("OTP Valid?", isValid);
 
 ---
 
-### **📌 Kelebihan Library Ini**
+## **📌 Kelebihan Library Ini**
 ✅ **Support OTP via WhatsApp & Email**  
 ✅ **Fleksibel dengan konfigurasi (`digits`, `period`, `window`)** 
